@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Website</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to My Website</h2>
+    <p>I built this with AI 🚀</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>This is my first website hosted on GitHub Pages.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Your email" required>
+        <textarea placeholder="Your message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 My Website</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
