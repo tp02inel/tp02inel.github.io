@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shop</title>
+style.css
+</head>
+<body>
+
+<header>
+<h1>Shop VELO</h1>
+cart.htmlCart 🛒</a>
+</header>
+
+<div class="products">
+
+<div class="product">
+<h3>VELO Ice Cool</h3>
+<p>£5.99</p>
+<button onclick="addToCart('VELO Ice Cool', 5.99)">Add to Cart</button>
+</div>
+
+<div class="product">
+<h3>VELO Mint</h3>
+<p>£5.99</p>
+<button onclick="addToCart('VELO Mint', 5.99)">Add to Cart</button>
+</div>
+
+<div class="product">
+<h3>VELO Berry</h3>
+<p>£5.99</p>
+<button onclick="addToCart('VELO Berry', 5.99)">Add to Cart</button>
+</div>
+
+</div>
+
+script.js
+</body>
+</html>

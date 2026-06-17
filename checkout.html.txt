@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Checkout</title>
+style.css
+</head>
+<body>
+
+<h1>Checkout</h1>
+
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="text" placeholder="Address" required>
+<input type="email" placeholder="Email" required>
+
+<button type="submit">Place Order</button>
+</form>
+
+<p>This is a demo checkout. Payments not enabled yet.</p>
+
+</body>
+</html>
